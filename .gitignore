@@ -1,0 +1,15 @@
+# : 以 # 开头的行 → 备注 / 注释（给人看的）
+
+# build output  都是忽略项目根目录下的 build/ 这个文件夹及其所有内容
+/build/
+/bin/
+
+# cmake generated 提醒：下面这些是 CMake 自动生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# vscode
+.vscode/
+
